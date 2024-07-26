@@ -1,0 +1,295 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+.top-container{
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 15%;
+}
+#exit{
+    margin-left: 15px;
+}
+#vertica-line{
+    border-right: 2px solid grey;
+    padding-right: 20px;
+}
+.top-container span a{
+    text-decoration: none;
+    color: rgb(136, 128, 128);
+    font-size: 14px;
+}
+.top-container span a:hover{
+    text-decoration: underline;
+}
+nav{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    z-index: 10;
+    top: 40px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
+.nav-container{
+    margin: 10px 15%;
+}
+.nav-container ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container ul li{
+    font-size: 14px;
+    color: rgb(78, 74, 74);
+    font-weight: 500;
+}
+.ribbon{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ribbon-container{
+    margin: 0 15%;
+   text-align: center;
+}
+.ribbon-container span{
+    font-size: 16px;
+}
+.ribbon-container span a{
+    text-decoration: none;
+    color:rgb(52, 176, 217) ;
+}
+.ribbon-container span a:hover{
+    text-decoration: underline;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 81vh;
+    background-color: #f5f5f5;
+     padding: 50px 0;
+     border-bottom: 10px solid white;
+}
+.section-container button{
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: rgb(30, 109, 187);
+    border: 1px solid  rgb(12, 124, 236);
+}.section-container button:hover{
+    background-color: rgb(16, 124, 231);
+    color: #fff;
+}
+#learnmore{
+    background-color: rgb(16, 124, 231);
+    color: white;
+}
+#learnmore:hover{
+    background-color: rgb(36, 136, 237);
+
+}
+.section-container h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.section-container p{
+    font-size: 26px;
+}
+.section-container img{
+    overflow-y: hidden;
+    margin-top: 30px;
+}
+.section-container-black{
+    background:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 81vh;
+     padding: 50px 0;
+     border-bottom: 10px solid white;
+     position: relative;
+}
+.section-container-black img{
+    position: relative;
+    z-index: 1;
+}
+.content-absolute{
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+   
+}
+.content-absolute h1{
+    color: white;
+    font-size: 55px;
+    margin: 20px 0 10px 30px;
+   
+}
+.content-absolute p{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.learnmore-btn-black{
+    margin-left: 70px;
+}
+.section-container-black  button{
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: rgb(30, 109, 187);
+    border: 1px solid  rgb(12, 124, 236);
+}
+.section-container-black button:hover{
+    background-color: rgb(16, 124, 231);
+    color: #fff;
+}
+.learnmore-btn-black #learnmore-black{
+    background-color: rgb(16, 124, 231);
+    color: white;
+}
+#learnmore-black:hover{
+    background-color: rgb(36, 136, 237);
+
+}
+
+.grid-container{
+    max-width: 100%;
+    margin: auto;
+}
+.wrapper img{
+    width: 100%;
+
+   
+}
+.wrapper{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.content button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.content-btn-white{
+    display: flex;
+    justify-content: center;
+}
+.content-btn-white button{
+    border: none;
+    font-size: 14px;
+}
+#white-btn{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+#white-btn:hover{
+    background: white;
+    color: black;
+}
+.black-h1{
+    color: black;
+}
+.blue-btn{
+    background: #057cf3;
+    border: none;
+    color: #fff;
+}
+.blue-btn:hover{
+    background: #217fdd;
+}
+#black-transparent{
+    background: transparent;
+    border:1px solid  #057cf3;
+    color: #057cf3;
+}
+#black-transparent:hover{
+    background: #057cf3;
+    color: white;
+}
+#transparent-white{
+    background: transparent;
+    color: #057cf3;
+    border: 1px solid #057cf3;
+}
+#transparent-white:hover{
+    background: #057cf3;
+    color: #fff;
+}
+ #learnmore-black-grid5{
+    background: black;
+    color: white;
+    border: none;
+}
+#transparent-buy{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+#transparent-buy:hover{
+    background: black;
+    color: #fff;
+}
+#grid4-para{
+    font-size: 16px;
+    color: rgb(151, 149, 149);
+}
+#logo{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.grid-item5 .logo-h1{
+    display: flex;
+    justify-content:center ;
+}
+.grid-item5 .logo-h1 img{
+    width: 60px;
+    height: 40px;
+}
+
+
+
+
